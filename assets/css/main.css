@@ -7,6 +7,24 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+.container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 2px;
+}
+
+.cell{
+	background-color: rgba(117, 117, 117, 0.164);
+	text-align: center;
+	padding: 20px 0;
+	
+}
+
+.cell5, .cell6, .cell7, .cell8{
+	background-color: rgba(255, 255, 255, 0.719);
+	color: black;
+}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
