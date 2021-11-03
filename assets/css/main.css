@@ -1379,7 +1379,7 @@ input, select, textarea {
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					/*padding: 0 1.25rem 0 1.45rem;*/
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
@@ -1388,6 +1388,7 @@ input, select, textarea {
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
+						color: #ffffff;
 					}
 
 					#header nav ul li a:active {
@@ -1677,3 +1678,12 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.carousel-control-next, .carousel-control-prev{
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#carouselExampleCaptions h5{
+	font-size: 1.25rem;;
+}
