@@ -399,3 +399,21 @@
 					});
 
 })(jQuery);
+
+const bloque = document.querySelectorAll('.bloque')
+const h3 	 = document.querySelectorAll('.h3')
+
+// Cuando CLICK en h3,
+	// QUITAR la clase activo de TODOS los bloque,
+	// Añadir clase activo al BLOQUE con la POSICIÓN del h3
+
+
+h3.forEach((cadaH3, i)=>{
+	h3[i].addEventListener('click', ()=>{
+
+		bloque.forEach((cadaBloque, i)=>{
+			bloque[i].classList.remove('activo')
+		})
+		bloque[i].classList.add('activo')
+	})
+})
