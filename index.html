@@ -36,8 +36,8 @@
 						</div>
 						<div class="content">
 							<div class="inner">
-								<h1>Modelo de medición de calidad de agua: MMCA</h1>
-								<p>MMCA es un proyecto con la finalidad de diseñar un dispositivo capaz de mensurar propiedades específicas del agua (temperatura, densidad, acidez, salinidad, etc.) que indiquen la calidad de esta; utilizando principios presentes en la mecánica de fluidos.</p>
+								<h1>Monitor de calidad de agua: MÓNICA</h1>
+								<p>MÓNICA es un proyecto con la finalidad de diseñar un dispositivo capaz de mensurar propiedades específicas del agua (temperatura, densidad, acidez, salinidad, etc.) que indiquen la calidad de esta; utilizando principios presentes en la mecánica de fluidos.</p>
 							</div>
 						</div>
 						<nav>
@@ -67,22 +67,24 @@
 						<!-- Work -->
 							<article id="Medidor">
 								<h2 class="major">Medidor</h2>
-								<p>El medidor empleado en este proyecto consta de varios sensores y un servidor donde se sube en tiempo real los datos recabados, estos dispositivos son los siguientes:</p>
+								<p>El medidor empleado en este proyecto consta de varios sensores y un módulo de Bluetooth donde se suben los datos recabados mediante la app MÓNICA. </p>
 								<div class = "acordeon">
 									<div class="bloque">
-										<h3 class = "h3">Titular</h3>
-										<p class = "contenido">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero illum itaque fugit pariatur animi ratione modi cumque perferendis ex veritatis officiis adipisci eveniet excepturi facere expedita optio, voluptatem culpa dicta?</p>
+										<h3 class = "h3">Sensor de temperatura DS18B20</h3>
+										<p class = "contenido">El sensor DS18B20 cuenta con un rango de lecturas de temperaturas entre -55°C y 125°C con márgen de error de &plusmn 0.5°C entre -10°C y 85°C, para el resto del rango, tiene un márgen de error de &plusmn 2°C. Cuenta también con tres pines útiles:<br> <br> 1. V<sub>DD</sub> es la tensión de alimentación y es desde 3V a 5.5V. <br> <br> 2. GND es la toma de tierra. <br> <br> 3. DQ es el pin de datos por donde se recibirán todos los datos en el protocolo 1-Wire.</p>
 									</div>
 									<div class="bloque">
-										<h3 class = "h3">Titular</h3>
-										<p class = "contenido">Soy el contenido 2</p>
+										<h3 class = "h3">Sensor de pH PH-4502C</h3>
+										<p class = "contenido">El sensor PH-4502C</p>
 									</div>
 									<div class="bloque">
-										<h3 class = "h3">Titular</h3>
-										<p class = "contenido">Soy el contenido 3</p>
+										<h3 class = "h3">Sensor de turbidez SEN0189</h3>
+										<p class = "contenido">El SEN0189 es un sensor análogo de turbidez de agua. Detecta partículas suspendidas en el agua al medir la transmitancia de la luz y la tasa de dispersión que cambia con la cantidad total de sólidos en suspensión (TSS) en el agua. A medida que aumenta el TSS, aumenta el nivel de turbidez del líquido.
+											<br> <br> El rango de temperturas en las que opera es entre 5°C y 90°C y cuenta con una salida análoga de 0V a 4.5V.
+										</p>
 									</div>
 									<div class="bloque">
-										<h3 class = "h3">Titular</h3>
+										<h3 class = "h3">Sensor de TDS SEN0244</h3>
 										<p class = "contenido">Soy el contenido 4</p>
 									</div>
 								</div>
@@ -94,19 +96,19 @@
 							<article id="Mediciones">
 								<h2 class="major">Mediciones</h2>
 								<div class = "container">
-									<div class = "cell cell1">Fecha</div>
-									<div class = "cell cell2">Temperatura</div>
+									<div class = "cell cell1">Temperatura</div>
+									<div class = "cell cell2">TDS</div>
 									<div class = "cell cell3">Turbidez</div>
-									<div class = "cell cell4">pH</div>
-									<div class = "cell cell5">02/11/2021</div>
-									<div class = "cell cell6">28°C</div>
-									<div class = "cell cell7">0.8 NTU</div>
-									<div class = "cell cell8">7.35</div>
+									<div class = "cell cell4">Ph</div>
+									<div class = "cell cell5">28°C</div>
+									<div class = "cell cell6">200 ppm</div>
+									<div class = "cell cell7">3.25 NTU</div>
+									<div class = "cell cell8">6.5</div>
 								</div>
 
 								
 								<!-- <span class="image main"><img src="images/pic02.jpg" alt="" /></span> -->
-								<p style="margin-top: 30px;">Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+								<p style="margin-top: 30px;"><i>Ejemplo de lectura de sensores.</i></p>
 								<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat tempus.</p>
 
 								<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
